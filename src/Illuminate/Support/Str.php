@@ -97,6 +97,7 @@ class Str
      */
     public static function afterLast($subject, $search)
     {
+        // some changes ....
         if ($search === '') {
             return $subject;
         }
